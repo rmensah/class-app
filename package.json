@@ -1,0 +1,30 @@
+{
+  "name": "class-app",
+  "version": "1.0.0",
+  "description": "My Class App is a class system that has a user registration and a user login feature. The App has is a registration page, a login page, a students page, an instructors page. Students have one instructor and up to 2 TA's. Instructors have many students. An Instructor can be either a TA or a Teacher.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmensah/class-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmensah/class-app/issues"
+  },
+  "homepage": "https://github.com/rmensah/class-app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "express-sessions": "^1.0.5",
+    "middleware": "^1.0.0",
+    "mysql": "^2.10.2",
+    "passport": "^0.3.2",
+    "sequelize": "^3.19.3"
+  }
+}
