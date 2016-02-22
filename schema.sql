@@ -1,0 +1,3 @@
+#schema
+
+CREATE DATABASE myclass;
